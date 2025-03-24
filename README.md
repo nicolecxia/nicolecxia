@@ -6,7 +6,7 @@
 
 - 💫 Experience: `C#`, `Java`, `JS`, `Kotlin`, `Swift`, `React Native`, `Relational Database`, `.NET Framework`
 
-- 💭 `Open to work` <a href="https://www.linkedin.com/in/changqing-xia/"> <img src="https://github.com/nicolecxia/nicolecxia/blob/main/Linkedin-Logo.png" width="60" height="16" alt="Icon"></a>
+- 💭 `Open to work` <a href="https://www.linkedin.com/in/changqing-xia/"> <img src="https://github.com/nicolecxia/nicolecxia/blob/main/LI-In-Bug.png" width="20" height="16" alt="Icon"></a>
 
 - 🍄 Interests: `🐈 person`, `hiking`, `coding`, `thinking`
   
