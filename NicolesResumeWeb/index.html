@@ -47,15 +47,17 @@
             </div>
             <ul class="main-nav">
               <li><a href="#">Home</a></li>
-              <li><a href="#">Portfolio</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a href="#expertise">Portfolio</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#talk">Contact</a></li>
             </ul>
           </nav>
           <!-- <a href="#" class="menu"><img src="assets/menu.png"></a> -->
           <div class="hero-text">
-            <h1><span>Hi, I am</span><br>Changqing Xia.</h1>
+            <h2><span>Hi, I am</span><br>Changqing Xia.</h2>
             <h3>C# Developer, Mobile App Developer</h3>
+            <h5>I'm a developer with over seven years of experience in WPF development, specializing in C#, Java, JavaScript, React, SQL, Kotlin, and Swift. </h5>
+            <h5>I have a passion for building efficient, user-friendly applications and continuously expanding my expertise. Currently, I’m advancing my skills in mobile app development while pursuing a Post-graduate Certificate in Mobile Application Development.</h5>
             <a href="mailto:nicolecxia@outlook.com" class="btn btn-lg btn-primary">Contact With Me</a>
             <ul class="social-links">
               <li class="label">Know me here</li>
@@ -72,11 +74,11 @@
     </div>
   </header>
 
-  <section class="case-study">
+  <section class="case-study" id="expertise">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h4 class="sub-heading">Exclusively</h4>
+          <h4 class="sub-heading">Expertise</h4>
           <h1 class="heading purple"><span class="purple">Coding</span> Languages<br>I Master</h1>
           <!-- Swiper -->
           <div class="swiper-container client-swiper">
@@ -138,11 +140,11 @@
     </div>
   </section>
 
-  <section class="testimonial">
+  <section class="testimonial" id="about">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h4 class="sub-heading">Happy</h4>
+          <h4 class="sub-heading">About</h4>
           <h1 class="heading pink"><span class="pink">Work</span> Experience<br>Of Mine</h1>
         </div>
       </div>
@@ -231,12 +233,35 @@
   </section>
 
   <!-- Contact Banner -->
-  <section class="contact-banner">
+  <section class="contact-banner" id="talk">
     <div class="container">
       <div class="row">
         <div class="col-md-12 text-center">
-          <h1>Let’s talk about your product</h1>
-          <a href="#" class="btn btn-lg btn-primary">Get in touch now</a>
+          <h1>Let’s talk</h1>
+          <form action="https://formspree.io/f/xldjnyey" method="POST" class="col-md-12 text-center">
+            <div class="table-container">
+            <table>
+              <tr>  
+                <td>  <label for="email">Your Email:</label></td>
+               <td> <input type="email" id="email" name="email" required></td>
+            </tr>
+
+            <!-- <tr>  
+                <td> <label for="subject">Subject:</label></td>
+                <td> <input type="text" id="subject" name="subject"> </td>
+            </tr> -->
+
+            <tr>  
+              <td> <label for="message">Message:</label> </td>
+              <td> <textarea id="message" name="message" rows="5" required></textarea> </td>
+          </tr>
+            </table>
+            </div>
+        <br>
+            <button type="submit" class="btn btn-lg btn-primary">Send</button>
+        </form>
+   
+          <!-- <a href="#" class="btn btn-lg btn-primary">Get in touch now</a> -->
         </div>
       </div>
     </div>
@@ -247,12 +272,14 @@
     <div class="container-fluid">
       <div class="row footer">
         <div class="col-md-12 text-center">
-          <h1>Changqing<br><span>Xia</span></h1>
+          <h3>Changqing Xia</h3>
           <ul class="social-links">
             <li><a href="https://www.linkedin.com/in/changqing-xia-a42985237/"><img src="assets/linkedin.png"></a>
             </li>
             <li><a href="https://github.com/nicolecxia"><img src="assets/github.png"></a></li>
           </ul>
+          <br>
+          <p>© 2025 ChangqingXia. Licensed under CC BY 4.0.</p>
         </div>
       </div>
       <!-- <div class="row sub-footer">

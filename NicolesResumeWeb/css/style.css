@@ -105,6 +105,28 @@ ul.social-links li a:hover {
 ul.social-links li a img {
   max-height: 30px;
 }
+.table-container {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically if needed */
+  
+   /* height: 100vh; Optional: Makes it centered vertically */
+}
+table {
+  border-collapse: collapse;
+  width: 70%; /* Adjust width as needed */
+}
+td {
+  padding: 10px;
+}
+td input,td textarea{
+  color: black;
+}
+
+textarea, input {
+  width: 100%; /* Makes it as wide as its parent */
+  max-width: 500px; /* Limits max width */
+}
 
 
 /* Case study */
